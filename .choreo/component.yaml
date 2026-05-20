@@ -1,0 +1,10 @@
+schemaVersion: 1.2
+endpoints:
+  - name: banking-mcp
+    displayName: Banking Dispute MCP Endpoint
+    service:
+      basePath: /mcp
+      port: 9090
+    type: REST
+    networkVisibilities:
+      - Project

@@ -1,5 +1,6 @@
 portMappings:
-  # Local port exposed by the WSO2 Tailscale proxy service:
+  # Mount this file to /config.yaml in the separate WSO2 Tailscale Proxy component.
+  # Local port exposed by the Tailscale proxy service:
   #   http://tailscale-proxy:8080
   # Tailnet target:
   #   100.108.78.93:8090, where the private core banking API is reachable.

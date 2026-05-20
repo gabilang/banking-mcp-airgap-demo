@@ -1,7 +1,0 @@
-version: 0.1
-endpoints:
-  - name: Private core banking through Tailscale
-    port: 8080
-    type: REST
-    networkVisibility: Project
-    context: /
